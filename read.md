@@ -12,10 +12,7 @@ AWS Certified Cloud Practitioner (CLF-C01)
 
 -= Em andamento =-
 
-
 ## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
 
 * [Python](https://www.python.org/) - Linguagem de programação usada para automações
 
