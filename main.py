@@ -18,3 +18,6 @@ def PracticionerExame():
     domains = ["Cloud Concepts", "Security and Compliance", "Technology", "Billing and Pricing"]
 
     
+def cloudConcepts():
+    exameratio = "26%"
+    
