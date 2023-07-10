@@ -24,4 +24,3 @@ def cloudConcepts():
     identification = "identify aspects of AWS Cloud economics"
     description = "Describe different cloud architecture design principles"
 
-def 
