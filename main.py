@@ -20,4 +20,8 @@ def PracticionerExame():
     
 def cloudConcepts():
     exameratio = "26%"
-    
+    definition = "define the AWS Cloud and its valuye proposition"
+    identification = "identify aspects of AWS Cloud economics"
+    description = "Describe different cloud architecture design principles"
+
+def 
