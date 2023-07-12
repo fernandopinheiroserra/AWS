@@ -19,5 +19,12 @@ def PracticionerExame():
 
     
 def theCloud():
-    
+    concept = 'cloud is internet. And internet is a global bunch of devices connected. '
+    schematic = 'Browser+Request+ISP+Request+Server+WebHost+Packets+Browser'
+
+
+def cloudComputing():
+    power = 'Cloud Computing: Access your data from everywhere'
+    concept = 'on-demand delivery of compute, database storage, application, and other IT resources'
+
 
