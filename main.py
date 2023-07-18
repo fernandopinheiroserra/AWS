@@ -47,7 +47,36 @@ def cloudComputingModels():
 
 def cloudDeployments():
     concept = 'when a organization utilizes cloud deployment, it means that all parts of its IT infrastructure reside and run on the cloud'
-    cloudDeployments = []
-    onPremisesdeployments = []
-    hybridDeployments = []
+    cloudDeployments = ['100% of IT infrastructure on the cloud', 'All applications migrated to or created in the cloud', 'Removes roadblock of costly and time-consuming procurement processes']
+    onPremisesdeployments = ['Use virtualization to deploy resources in ther on-premises data centers', 'Often looks like traditional IT infrastructure', 'Does not provide a lot of benefits of cloud computing', 'Resources cannot be accessed using the internet', 'Security: Provides dedicated resources']
+    hybridDeployments = ['Connects on-premises tech with cloud-based resources', 'Great for established companies that are in the process of migrating over the cloud', 'Data partially on the cloud and partially in the on-premisses data center','Can use as backup and disaster recovery solution']
+    minItDeploymentCompanies = ['Cloud Deployment', 'Utilize flexibility and affordability of cloud computing']
+    datasecurityfirstCompanies = ['Private Cloud', 'Secure and on-premises', 'High-data retrieval speed', 'Virtualization of legacy resources']
+    bigItBasepluscloudresourcescompanies = ['Partially on-premises and partially on the cloud', 'Safe backups for emergencies']
 
+
+def infrastructureArchitecting():
+    goal = 'Build the most secure, durable, efficient, and high-performing IT infrastructure possible'
+    step1 = ['Avoid unecessary costs', 'Use only what you need', 'Reserve resources in advance', 'Continue to monitor for optimization']
+    step2 = ['Reliability','Test disaster recovery settings', 'Incorporate redundancy', 'Have duplicate copies of resources']
+    step3 = ['Efficiency']
+    step4 = ['Security', 'Best practices should be automated', 'Data should always be protected', 'Enable traceability','Manage access']
+    step5 = ['Operational Excellence','Document everything', 'Anticipate failure', 'Update processes', 'learn from failures']
+    step6 = ['Sustainability', 'minimize environment impact']
+
+def welcomeAWS():
+    timeline = ['Amazon.com Web Service launched in 2002', 'Amazon was planning to launch Merchant.com - and ecommerce platform for third-party shops', 'The platform paved the way for Amazon to evolve from online store do service company']
+    awservices = ['Provides IT infrastructure services to organizations as web services','Resources are accessed using the internet', 'utilizes the pay-as-you-go model to help organizations save money, time, and human resources']
+
+def offeringServices():
+    computeServices = ['Provide virtual server hosting, container management, and serverless computing', 'instead of hosting servers themselves, organizations can rent server compute space and capacities for cheap from AWS', 'No longer have to purchase physical servers or maintain data centers on-premises']
+    storageServices = ['Provide sotrage for both in-user and archival files', 'Different costs associated with how often you need to access the files and how durable or available you want them to be','Storage type for almost every level of need with very granular costs to meet bufget requirements']
+    databaseServices = ['Fully managed relational databases (RDS - Relational Database Service) and NoSQL databases (DynamoDB)', 'Also offers fully managed scalable petabyte-scale data warehouse service (Redshift)','Highly scalable and cost efficient: crunch data at a fraction of the cost of on-site database servers (ElastiCache)']
+
+def studyBreak():
+    topTips = ['Advantages of cloud computing over legacy on-premises IT infrastructure','Cloud computing models', 'Cloud computing deployments', 'Design principles of cloud computing(like Well-Architected Framework)']
+    AdvantagesOfCloudComputing = ['Trade capital expence for variable expense', 'Benefit from massive economies of scale', 'Stop guessing about capacity', 'Increase speed and agility', 'Stop spending money running and maintaining data centers', 'Go global in minutes']
+    cloudComputingModels = ['SaaS', 'IaaS', 'PaaS']
+    cloudComputingDeployments = ['Public Cloud', 'Hybrid Cloud', 'Private Cloud (on-premises cloud)']
+    wellArchitectedFramework = ['Cost Optimization', 'Reliability', 'Operational Excellence', 'Performance Efficiency', 'Security', 'Sustainability']
+    
