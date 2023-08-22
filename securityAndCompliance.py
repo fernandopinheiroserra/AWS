@@ -21,4 +21,35 @@ def infraestructurelooklike():
 
 
 def securityResponsabilities():
-    sharedResponsabilityModel = []
+    sharedResponsabilityModel = ['AWS = At the cloud', 'User = In the cloud']
+
+
+def securityServices():
+    
+    def identityandAccessManagement():
+        conceptIAM = ['Manage access to services and resources on the AWS Cloud', 'Manage users and groups', 'Can provide access to users or other AWS services', 'Permissions are global: any access setting will be true across all legions', 'Follow principle of least privilege']
+        usingIAM = ['Manage Users', 'Manage IAM roles', 'Manage Federated Users']
+        methodsIAM = [manageUsersIAM, manageIAMroles, manageFederatedUsers]
+        manageUsersIAM = ['Create users in IAM and assign them security credentials', 'Users can have very precise permission sets', 'User can access AWS through AWS Management Console', 'You can provide programmatic access to data/resources', 'Programmatic access: applications directly accessing resources instead of humans doing the same activity']
+        manageIAMroles = ['Create roles to manage permissions and what those roles can do', 'An entity assumes a role to obtain temporary security credentials to make API calls to your resources', 'Used to provide access to a user from another AWS account to your AWS account']
+        manageFederatedUsers = ['Enable identity federation: allow existing identities in your enterprise to access AWS without having to create IAM user for each identityIdeal for lists', 'Can use any identity management solution using SAML 2.0 or one of AWSs federation samples', 'tip: using a gmail account to access other service in web is an example']
+        benefitsIAM = ['Enhanced security', 'Granular control', 'Ability to provide temporary credentials', 'Flexible security credential management', 'Federated access', 'Seamless integration across various AWS services']
+
+    def webApplicationFirewall():
+        conceptWAF = ['Protects web apps running on the AWS Cloud from common web exploits', 'Firewall service for web applications', 'Protect web apps against exploits that could compromise security or availability', 'Protect apps from exploits that could force your app to consume excessive resources']
+        usingWAF = ['Improves web traffic visibility', 'Provides cost-effective web app protection', 'Delivers increased security and protection against web attacks', 'Easy to deploy and maintain']
+
+    def shield():
+        DDoSattack = ['Distributed Denial of Service Attack', 'An attempt to make a machine or network resource unavailable' ,'Most often by making excessive repeated requests to the website using thousands of unique IP addresses']
+        conceptShield = ['Provides detection and automatic mitigations', 'Minimizes effects of DDoS attacks to your apps', 'Helps minimize application downtime and latency when an attack happens']
+        tiersShield = [standardShield,]
+        standardShield = ['Automatically enabled', 'Free', 'Protects web applications against a majority of common DDoS attacks', 'Used with CloudFront and Rout 53, you can get comprehensive availability protection agains all known infrastructure attacks']
+        advancedShield = ['Continuous 24/7 access to AWS DDoS response team', 'Near real-time visibility into events', 'Integrates with AWS WAF', 'Provides higher-level protections, network and transport layer protections, and automated application traffic monitoring', 'Provides financial protection against DDoS-related spikes in charges for EC2, elastic load balancers, CloudFront and Rout 53', 'Available globally on all CloudFront and Route 53 Edge locations', 'your web application can be hosted anywhere in the world and still be protected by AWS Shield']
+        usingShield = ['Comprehensive protection against DDoS catered to your budget and needs']
+
+    def amazonInspector():
+        conceptInspector = ['Automated security assessment service for applications', 'Automatically assess for exposure, vulnerabilities, and derivations from best practices', 'Generates detailes reports to help check for vulnerabilities', 'Security teams can get reports validating thats testes were performed']
+        usingInspector = ['Reduce risk of introducing security issues during deployment and development', 'You can define standards and best practices', 'OR use the AWS constantly updated standards', 'Amazon Inspector: Inspects your applications to find security issues']
+    
+    def trustedAdvisor():
+        conceptTrustedAdvisor = ['Guides provisioning of resources to follow AWS best Practices']
