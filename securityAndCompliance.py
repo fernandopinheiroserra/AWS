@@ -1,4 +1,29 @@
 
+def securityResponsabilities():
+    sharedResponsabilityModel = []
+    sharedResponsabilityModel = ['Security of cloud computing infraestructures an data is a shared responsability between the custumer and AWS', 'the customer has some components to worry about']
+    awsResponsability = securityOfTheCLoud
+    customerResponsability = securityInTheCloud
+    securityOfTheCLoud = ['AWS is responsible for Protecting the Infraestructure: Physical security of data centers hosting the AWS Cloud', 'Security of Software, networking an every component that runs the cloud computing services']
+    securityInTheCloud = ['Customer is responsible for varying levels of security functions, depending on the AWS Cloud used', 'Protecting customer data and data encryption', 'Identify and access Management', 'Patching Opeating Systems of VMs', 'Configuring Firewalls']
+
+def wellArchitectureInfraestructure():
+    fivePillars = ['Operational Excellence', 'Security', 'Reliability', 'Performance Efficiency', 'Cost optmization']
+
+def securityPillar():
+    features = [f"Identify and Access Management({iam})", detectiveControls, infraestructureProtection, dataProtection, incidentResponse]
+    iam = ['Actively manage all-user access', 'Use strong identity foundation', 'principle of last privilege']
+    detectiveControls = ['Enable traceability: Who did what, when?', 'Actively Monitor Alerts', 'Audit actions an changes to environment in real time']
+    infraestructureProtection = ['apply sercurity to all layers of infraestructure (not just the outer layer)', 'Virtual servers: secure multiple layers like subnet, load balancer and OS', 'Security best pratices should be automated to save time and money when scaling']
+    whenProtectData = ['At Rest: Image save in S3 bucket', 'In transit: Email being send from one server to another']
+    dataProtection = ['Security Mechanisms should be adjusted depending on the sensitivity of the data', 'Keep people away from data']
+    incidentResponse = ['intervene, investigate and deal with all security events', 'Once issue is resolved, update incidente management process', 'continue to learn from past mistakes and security events']
+    return iam
+
+def principleOfLeastPrivilege():
+    concept = 'Provide access only to the resources that a person need to do his job, no more, no less'
+    features = [f"use iam: {securityPillar()} to provide access", 'You can provide access to resources to both users and other AWS soervices', ]
+    
 
 def goals():
     ableTodescribe = ['key services on the AWS platform and their common use cases', 'Basic security and compliance aspects of the AWS platform and the shared security model', 'Basic/core characteristics of deploying and operating in the AWS Cloud']
