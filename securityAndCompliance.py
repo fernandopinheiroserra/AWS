@@ -77,4 +77,7 @@ def securityServices():
         usingInspector = ['Reduce risk of introducing security issues during deployment and development', 'You can define standards and best practices', 'OR use the AWS constantly updated standards', 'Amazon Inspector: Inspects your applications to find security issues']
     
     def trustedAdvisor():
-        conceptTrustedAdvisor = ['Guides provisioning of resources to follow AWS best Practices']
+        conceptTrustedAdvisor = ['Guides provisioning of resources to follow AWS best Practices', 'Scans your infrastructure and advises you on how it is or is not following AWS best practices', F"Based on five categories: {bestPracices}", 'Provides action recommendations to meet best practices']
+        bestPracices = ['Cost optimization', 'performance', 'security', 'fault tolarance', 'service limits']
+        sevenCoreTrustedAdvisorChecks = ['S3 Buckets permissions', 'Security groups - specific ports unrestricted', 'IAM use', 'MFA on root account', 'EBS public snapshots', 'RDS public snapshots', 'Service limits']
+        FullTrustedAdvisorChecks = ['AWS enterprise or business plans', f"More types of checks on top of {sevenCoreTrustedAdvisorChecks}", 'Notifications through weekly updates', 'Hability to set up automated actions in response to alerts using CloudWatch', 'Programmatic access to scan results via AWS Support API']
