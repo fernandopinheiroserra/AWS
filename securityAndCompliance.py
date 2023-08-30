@@ -81,3 +81,11 @@ def securityServices():
         bestPracices = ['Cost optimization', 'performance', 'security', 'fault tolarance', 'service limits']
         sevenCoreTrustedAdvisorChecks = ['S3 Buckets permissions', 'Security groups - specific ports unrestricted', 'IAM use', 'MFA on root account', 'EBS public snapshots', 'RDS public snapshots', 'Service limits']
         FullTrustedAdvisorChecks = ['AWS enterprise or business plans', f"More types of checks on top of {sevenCoreTrustedAdvisorChecks}", 'Notifications through weekly updates', 'Hability to set up automated actions in response to alerts using CloudWatch', 'Programmatic access to scan results via AWS Support API']
+        goal = 'Makes sure AWS Cloud resources are aligned with best practices and provide customizes recommendations'
+
+    def guardDuty():
+        conceptGuardDuty = ['24/7 threat detection service for the AWS Cloud', 'Monitors for malicious activity and unauthorized behavior', 'Analyzes events to send actionable alerts via CloudWatch', 'Uses machine learning, anomaly detection, and integrated threat intelligence to identify potencial threats', 'Easy to Deploy']
+        goal = 'Amazon GuardDuty continuously monitors your AWS Cloud infraestructure, intelligently detects threats using machine learning, and helps you take action immediately if a threat is found'
+        
+
+
