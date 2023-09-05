@@ -87,5 +87,13 @@ def securityServices():
         conceptGuardDuty = ['24/7 threat detection service for the AWS Cloud', 'Monitors for malicious activity and unauthorized behavior', 'Analyzes events to send actionable alerts via CloudWatch', 'Uses machine learning, anomaly detection, and integrated threat intelligence to identify potencial threats', 'Easy to Deploy']
         goal = 'Amazon GuardDuty continuously monitors your AWS Cloud infraestructure, intelligently detects threats using machine learning, and helps you take action immediately if a threat is found'
         
+    def review():
+        awsIAM = ['Securely manage access to services and resources in AWS with extremely granular permissions sets', 'Set access permissions for users or other services to a resource', 'Create an manage IAM roles with specific permission sets', 'Dont have to manually set every entitys permission sets, wich could result in inconsistencies', 'Utilize identity deferation for already existing users in non-AWS services']
+        awsWAF = ['Firewall for web applications running on the AWS Cloud','Protects web apps from common web exploits and potential compromises that can jack up your AWS usage bill', 'Improves traffic visibility','Can be deployed within minutes']
+        awsSHIELD = ['Detection and automatic mitigations of distributed denial of service (DDoS) attacks to web applications','Standard tier: automatic, free, Protects agains majority of common DDos Attacks','Advanced tier: Continuous 24/07 access DDoS response team, Detects and mitigates sophisticated DDoS attacks, Provides financial protection against DDoS-related spikes in AWS resources usages']
+        amazonINSPECTOR= ['Automated security assessment service to improve security and compliance', 'Automatically assesses applications for exposure, vulnerabilities, and derivations from best practices', 'Generated detailed reports', 'Define standards to check against and create reports to validate specific test were performed']
+        awsTRUSTEDADVISOR = ['Guides resource provisioning to align with AWS best practices', 'Advises you on how your infrastructure is or is not following AWS best practices, based on five categories: Optimization, Performance, Security, Fault tolerance, Service limits', 'Seven core Trusted Advisor checks are free', 'Full Trusted Advisor checks are free with Business Support plans and above']
+        amazonGUARDDUTY = ['Threat detection service that monitors for malicious activity and unauthorized behavior non-stop, 24/7', 'Identifies and prioritizes potential threats', 'Quick to deploy']
+
 
 
